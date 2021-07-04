@@ -1,0 +1,4 @@
+
+az group create --nida my-resource-group --location westus2
+
+az storage account create -n practise1 -g my-resource-group
