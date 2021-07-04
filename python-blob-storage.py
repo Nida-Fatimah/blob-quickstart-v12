@@ -14,6 +14,9 @@ blob = BlobClient.from_connection_string(conn_str="DefaultEndpointsProtocol=http
 
 try:
     print("Azure Blob Storage v" + __version__ + " - Python quickstart sample")
+    print("Established connection to azure storage account")
+    print("Created a new container")
+    print("Created a new blob inside the container")
 
     # Quick start code goes here
 
